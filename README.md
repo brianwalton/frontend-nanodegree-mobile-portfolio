@@ -6,13 +6,13 @@
 4. Inlined CSS and moved to bottom of the file.
 
 ## Optimizations made to main.js - resizePizzas() slider performance
-1. Removed determineDx(). Replaced with fixed width percent assignment
+1. Removed determineDx(). Replaced with fixed width percent assignments (Cam C. suggestion)
 2. Inlined changePizzaSizes() and changeSliderLabel() functions
 2. Simplified for loop
 
 ## Optimizations made to main.js - updatePositions() page scroll performance
 1. Moved calculation using scrollTop property outside of for loop to stop forced reflow.
-Used instructor hint on max 5 values used in phase calculation.
+Used instructor hint that modulus results in a max of 5 values used in phase calculation.
 1. Reduced number of mover pizzas to 40 (5 rows x 8 pizzas max)
 
 
